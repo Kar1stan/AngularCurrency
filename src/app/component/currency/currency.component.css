@@ -1,0 +1,22 @@
+.form-control{
+   right: 50%;
+  top: 50%;
+    padding: 5px 10px;
+    background-color: green;;
+    color: white;
+    border-color: black;
+    width: 100px;
+    height: 30px;
+  }
+  option:hover{
+    background-color: white;
+    color: white;
+  }
+  .currency-button{
+    padding: 5px 10px;
+    background-color: green;;
+    color: white;
+    border-color: black;
+    width: 100px;
+    height: 30px;
+  }

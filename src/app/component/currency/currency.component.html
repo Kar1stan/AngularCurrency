@@ -1,0 +1,15 @@
+<Form>
+    <h3>Конвентер валюты</h3>
+    <p>Введите кол-во гривен:<input  type="number"  size="10" [(ngModel)]="inputUAH"></p>
+    <select class="form-control">
+    <option>UAH</option>
+    </select>
+    <p>Enter quantity of USD dollars:<input  type="number"  size="10" [(ngModel)]="inputUSD"></p>
+    <p>:<input  type="number"  size="10" [(ngModel)]="inputEUR"></p>
+    <p>Enter quantity of EUR dollars:<input  type="number"  size="10" [(ngModel)]="inputEUR"></p>
+    <select  class="form-control" (change)="findOption($event)">
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+    </select>
+    <button class="currency-button" (click)="getCurrency()">Пересчитать</button>
+ </Form>
