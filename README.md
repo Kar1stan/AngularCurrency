@@ -1,27 +1,27 @@
-# MyAngular
+# AngularCurrency
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
+Angular project which converts USD to EUR dollars.
 
-## Development server
+## 💻 Pre-requisites
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Before you use this project you only need to have Node.js installed in your computer.
 
-## Code scaffolding
+https://nodejs.org/es/download/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Also delete package.lock file before you run your project.
 
-## Build
+### Git clone
+This will clone the project, install NPM packages and also the Cypres.io which is required to run the test. No Selenium Server is required.
+```
+$ git clone https://github.com/Kar1stan/AngularCurrency.git
+$ cd AngularCurrency
+$ npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🚀 Run the project
+To run the project open terminal and  run the command:
+```
+$ npm run start
+```
+## Credits
+For further help or additional errors [here](https://angular.io/)
